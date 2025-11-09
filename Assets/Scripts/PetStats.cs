@@ -15,6 +15,11 @@ public class PetStats : MonoBehaviour
     public int happiness;
     public int energy;
 
+    //Sliders
+    public Slider hungerSlider;
+    public Slider happinessSlider;
+    public Slider energySlider;
+
     // Time between stat decreases (in seconds)
     public float decayInterval = 5f;
     private float timer = 0f;
@@ -49,6 +54,11 @@ public class PetStats : MonoBehaviour
 
             // Reset timer
             timer = 0f;
+
+            // Update UI sliders
+            hungerSlider.value = hunger;
+            happinessSlider.value = happiness;
+            energySlider.value = energy; 
 
             // Debug shows the results in the Console
             Debug.Log("Stats decreased! Hunger: " + hunger + ", Happiness: " + happiness + ", Energy: " + energy);

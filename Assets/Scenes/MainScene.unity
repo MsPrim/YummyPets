@@ -642,9 +642,9 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1456492540}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 1
-  m_WholeNumbers: 0
-  m_Value: 0
+  m_MaxValue: 100
+  m_WholeNumbers: 1
+  m_Value: 100
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -852,9 +852,9 @@ MonoBehaviour:
   m_HandleRect: {fileID: 78847435}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 1
-  m_WholeNumbers: 0
-  m_Value: 0
+  m_MaxValue: 100
+  m_WholeNumbers: 1
+  m_Value: 100
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1034,9 +1034,9 @@ MonoBehaviour:
   m_HandleRect: {fileID: 982527672}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 1
-  m_WholeNumbers: 0
-  m_Value: 0
+  m_MaxValue: 100
+  m_WholeNumbers: 1
+  m_Value: 100
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1331,6 +1331,9 @@ MonoBehaviour:
   hunger: 0
   happiness: 0
   energy: 0
+  hungerSlider: {fileID: 941278144}
+  happinessSlider: {fileID: 830765857}
+  energySlider: {fileID: 576213789}
   decayInterval: 5
 --- !u!1 &1245480245
 GameObject:
