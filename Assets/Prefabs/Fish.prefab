@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 7154703773077565775}
   - component: {fileID: 5163689688384681222}
   - component: {fileID: 4100639386583362263}
+  - component: {fileID: 1796676219872646889}
   m_Layer: 0
   m_Name: Fish
-  m_TagString: Untagged
+  m_TagString: Food
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -158,3 +159,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1796676219872646889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3129751523392584975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec892340ef73f4749815d6e8c49c2b49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hungerGain: 20
+  happinessGain: 5
+  description: 'Food item: increases pet stats when eaten.'
